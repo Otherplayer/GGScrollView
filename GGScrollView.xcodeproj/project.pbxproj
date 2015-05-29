@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FC04C52F26BEEF3D34551D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FCC217290DD47AA19CE97E /* libPods.a */; };
 		6385287B1B184200005E7D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6385287A1B184200005E7D39 /* main.m */; };
 		6385287E1B184200005E7D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6385287D1B184200005E7D39 /* AppDelegate.m */; };
 		638528811B184200005E7D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638528801B184200005E7D39 /* ViewController.m */; };
@@ -14,6 +15,12 @@
 		638528861B184200005E7D39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638528851B184200005E7D39 /* Images.xcassets */; };
 		638528891B184200005E7D39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638528871B184200005E7D39 /* LaunchScreen.xib */; };
 		638528951B184200005E7D39 /* GGScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 638528941B184200005E7D39 /* GGScrollViewTests.m */; };
+		638528A11B184242005E7D39 /* GGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 638528A01B184242005E7D39 /* GGScrollView.m */; };
+		638528A61B184272005E7D39 /* UIScrollView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 638528A31B184272005E7D39 /* UIScrollView+Addition.m */; };
+		638528A71B184272005E7D39 /* UIScrollView+Pages.m in Sources */ = {isa = PBXBuildFile; fileRef = 638528A51B184272005E7D39 /* UIScrollView+Pages.m */; };
+		638528AA1B184869005E7D39 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 638528A91B184869005E7D39 /* UIColor+Random.m */; };
+		638528AC1B184B78005E7D39 /* 5@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 638528AB1B184B78005E7D39 /* 5@3x.jpg */; };
+		638528AE1B184B98005E7D39 /* 5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 638528AD1B184B98005E7D39 /* 5@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49752DAC53932D915C085A8D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		638528751B184200005E7D39 /* GGScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638528791B184200005E7D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6385287A1B184200005E7D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,18 @@
 		6385288E1B184200005E7D39 /* GGScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638528931B184200005E7D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		638528941B184200005E7D39 /* GGScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGScrollViewTests.m; sourceTree = "<group>"; };
+		6385289F1B184242005E7D39 /* GGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGScrollView.h; sourceTree = "<group>"; };
+		638528A01B184242005E7D39 /* GGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGScrollView.m; sourceTree = "<group>"; };
+		638528A21B184272005E7D39 /* UIScrollView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Addition.h"; sourceTree = "<group>"; };
+		638528A31B184272005E7D39 /* UIScrollView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Addition.m"; sourceTree = "<group>"; };
+		638528A41B184272005E7D39 /* UIScrollView+Pages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Pages.h"; sourceTree = "<group>"; };
+		638528A51B184272005E7D39 /* UIScrollView+Pages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Pages.m"; sourceTree = "<group>"; };
+		638528A81B184869005E7D39 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		638528A91B184869005E7D39 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		638528AB1B184B78005E7D39 /* 5@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5@3x.jpg"; sourceTree = "<group>"; };
+		638528AD1B184B98005E7D39 /* 5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5@2x.jpg"; sourceTree = "<group>"; };
+		D8FCC217290DD47AA19CE97E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E0D4E3C67B8ECCF56FF9A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC04C52F26BEEF3D34551D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +87,8 @@
 				638528771B184200005E7D39 /* GGScrollView */,
 				638528911B184200005E7D39 /* GGScrollViewTests */,
 				638528761B184200005E7D39 /* Products */,
+				F5B9459262EDAC785E142ED1 /* Pods */,
+				90D6DE2C6AE3E66231D81FBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +104,7 @@
 		638528771B184200005E7D39 /* GGScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				6385289E1B18420D005E7D39 /* GGScrollView */,
 				6385287C1B184200005E7D39 /* AppDelegate.h */,
 				6385287D1B184200005E7D39 /* AppDelegate.m */,
 				6385287F1B184200005E7D39 /* ViewController.h */,
@@ -96,6 +120,8 @@
 		638528781B184200005E7D39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				638528AD1B184B98005E7D39 /* 5@2x.jpg */,
+				638528AB1B184B78005E7D39 /* 5@3x.jpg */,
 				638528791B184200005E7D39 /* Info.plist */,
 				6385287A1B184200005E7D39 /* main.m */,
 			);
@@ -119,6 +145,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6385289E1B18420D005E7D39 /* GGScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				638528A21B184272005E7D39 /* UIScrollView+Addition.h */,
+				638528A31B184272005E7D39 /* UIScrollView+Addition.m */,
+				638528A41B184272005E7D39 /* UIScrollView+Pages.h */,
+				638528A51B184272005E7D39 /* UIScrollView+Pages.m */,
+				638528A81B184869005E7D39 /* UIColor+Random.h */,
+				638528A91B184869005E7D39 /* UIColor+Random.m */,
+				6385289F1B184242005E7D39 /* GGScrollView.h */,
+				638528A01B184242005E7D39 /* GGScrollView.m */,
+			);
+			name = GGScrollView;
+			sourceTree = "<group>";
+		};
+		90D6DE2C6AE3E66231D81FBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8FCC217290DD47AA19CE97E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5B9459262EDAC785E142ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4E0D4E3C67B8ECCF56FF9A9 /* Pods.debug.xcconfig */,
+				49752DAC53932D915C085A8D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 638528981B184200005E7D39 /* Build configuration list for PBXNativeTarget "GGScrollView" */;
 			buildPhases = (
+				06426890E4995CA204149D70 /* Check Pods Manifest.lock */,
 				638528711B184200005E7D39 /* Sources */,
 				638528721B184200005E7D39 /* Frameworks */,
 				638528731B184200005E7D39 /* Resources */,
+				DB06916F8E4D95BD80CC28AE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,7 +261,9 @@
 			files = (
 				638528841B184200005E7D39 /* Main.storyboard in Resources */,
 				638528891B184200005E7D39 /* LaunchScreen.xib in Resources */,
+				638528AE1B184B98005E7D39 /* 5@2x.jpg in Resources */,
 				638528861B184200005E7D39 /* Images.xcassets in Resources */,
+				638528AC1B184B78005E7D39 /* 5@3x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +276,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06426890E4995CA204149D70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB06916F8E4D95BD80CC28AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		638528711B184200005E7D39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638528AA1B184869005E7D39 /* UIColor+Random.m in Sources */,
+				638528A71B184272005E7D39 /* UIScrollView+Pages.m in Sources */,
 				638528811B184200005E7D39 /* ViewController.m in Sources */,
+				638528A61B184272005E7D39 /* UIScrollView+Addition.m in Sources */,
+				638528A11B184242005E7D39 /* GGScrollView.m in Sources */,
 				6385287E1B184200005E7D39 /* AppDelegate.m in Sources */,
 				6385287B1B184200005E7D39 /* main.m in Sources */,
 			);
@@ -347,6 +446,7 @@
 		};
 		638528991B184200005E7D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E0D4E3C67B8ECCF56FF9A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGScrollView/Info.plist;
@@ -357,6 +457,7 @@
 		};
 		6385289A1B184200005E7D39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49752DAC53932D915C085A8D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GGScrollView/Info.plist;
@@ -418,6 +519,7 @@
 				6385289A1B184200005E7D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6385289B1B184200005E7D39 /* Build configuration list for PBXNativeTarget "GGScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +528,7 @@
 				6385289D1B184200005E7D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

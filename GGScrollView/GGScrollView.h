@@ -10,4 +10,12 @@
 
 @interface GGScrollView : UIView
 
+
+- (instancetype)initWithFrame:(CGRect)frame imageURLs:(NSArray *)imageURLs placeholder:(UIImage *)placeholder;
+
+@property (nonatomic, assign) NSUInteger scrollInterval;    // default is 2 seconds
+@property (nonatomic, assign) BOOL autoScroll;
+@property (nonatomic, strong, setter=didClickedIndexBlock:) void(^clickedBlock)(NSInteger index);
+
+
 @end
